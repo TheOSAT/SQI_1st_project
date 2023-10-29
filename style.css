@@ -1,0 +1,1380 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav .fnavdiv{
+    background-color: rgb(28,231,131);
+    padding: 20px;
+    font-size: 2rem;
+    text-align: center;
+    font-family: sans-serif;
+}
+nav .fnavdiv a{
+    color: black;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+nav .fnavdiv a:hover{
+    color: white;
+}
+nav .fnavdiv small{
+    display: block;
+    font-size: 0.6rem;
+}
+.fsec{
+    width: 100%;
+    background-image: url(images/originalmain.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fsec .secnav{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+    background-color: none;
+}
+.secnav div:nth-child(2) a{
+    color: rgb(163,169,183);
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background: linear-gradient rgba(0 0 0.7 black) (0 0 0.7 black);
+}
+.secnav div:nth-child(2) a:hover{
+    color: white;
+    width: 55px;
+    border-radius: 5px;
+    background-color: gray;
+}
+.container1{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.container1 .middiv{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    /* gap: 30px; */
+}
+.box1 .but button{
+    width: 50%;
+    background: 0;
+    background-color: rgb(28,231,131);
+    padding: 5px 20px;
+    margin: 7px 0px;
+    border-radius: 5px;
+    border: none;
+}
+.middiv .box1{
+    /* border: 2px solid red; */
+}
+.box1 .disn{
+    padding-bottom: 20px;
+}
+.container1 .box1{
+    color: white;
+}
+.box1 .disn{
+    color: rgb(28,231,131);
+}
+.box1 div:nth-child(2) img{
+    width: 24rem;
+}
+.box1 .both{
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-family: sans-serif;
+    width: 60%;
+    padding-top: 20px;
+    margin-left: 40px;
+}
+.box2 div:nth-child(2) img{
+    width: 30rem;
+}
+.box3{
+    text-align: center;
+    /* border: 2px solid yellowgreen; */
+    width: 50%;
+    padding-bottom: 70px;
+}
+.container1 .box3 .aterms{
+    padding: 15px;
+    color: black;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+.aterms a{
+    color: white;
+}
+.ssec{
+    background-color: black;
+    align-items: center;
+    
+}
+.ssec .divssec{
+    /* width: 50%; */
+}
+.ssec .divssec p{
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 10px;
+    color: rgb(28,231,131);
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+.ssec .divssec h1{
+    color: white;
+    padding-bottom: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    font-family: sans-serif;
+}
+.ssec .divssec h6{
+    color: white;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+.tsec{
+    width: 100%;
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+}
+.tsec .div1{
+    width: 48%;
+    display: flex;
+    /* background-color: black; */
+    justify-content: space-between;
+}
+.tsec .div2{
+    width: 48%;
+    display: flex;
+    /* background-color: black; */
+    justify-content: space-between;
+}
+.tsec .btnsec1{
+    background-image: url(images/original\ \(1a\).png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 440px;
+    width: 250px;
+    align-content: start;
+    border-radius: 10px;
+    border: 4px solid transparent;
+    border-color: black;
+}
+.tsec .btnsec1:hover{
+    border: 4px solid gray;
+    /* transition: 1s;
+    opacity: 100px; */
+}
+.tsec .btnsec1 h2{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+.tsec .btnsec1 h1{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.tsec .btnsec2{
+    background-image: url(images/original\ b1.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 440px;
+    width: 250px;
+    align-content: start;
+    border-radius: 10px;
+    border: 4px solid transparent;
+    border-color: black;
+}
+.tsec .btnsec2:hover{
+    border: 4px solid gray;
+}
+.tsec .btnsec2 h2{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+.tsec .btnsec2 h1{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.tsec .btnsec3{
+    background-image: url(images/original\ \(c2\).png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 440px;
+    width: 250px;
+    align-content: start;
+    border-radius: 10px;
+    border: 4px solid transparent;
+    border-color: black;
+}
+.tsec .btnsec3:hover{
+    border: 4px solid gray;
+}
+.tsec .btnsec3 h2{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+.tsec .btnsec3 h1{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: left;
+    padding-left: 5px;
+}
+
+
+.tsec .btnsec4{
+    background-image: url(images/original\ \(d3\).png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 440px;
+    width: 250px;
+    align-content: start;
+    border-radius: 10px;
+    border: 4px solid transparent;
+    border-color: black;
+}
+.tsec .btnsec4:hover{
+    border: 4px solid gray;
+}
+.tsec .btnsec4 h2{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+.tsec .btnsec4 h1{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.btnsec1 div{
+    position: absolute;
+    margin-top: -190px;
+}
+
+.btnsec2 div{
+    position: absolute;
+    margin-top: -190px;
+}
+
+.btnsec3 div{
+    position: absolute;
+    margin-top: -190px;
+}
+
+.btnsec4 div{
+    position: absolute;
+    margin-top: -190px;
+}
+
+.f4sec{
+    width: 100%;
+    background-color: black;
+}
+.f4sec .p1{
+    width: 100%;
+    padding-top: 20px;
+    /* margin-left: 920px; */
+    color:grey;
+    padding-bottom: 90px;
+    align-content: center;
+}
+.f4sec h2{
+    color: rgb(28,231,131);
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    font-family: sans-serif;
+    padding-bottom: 20px;
+}
+.f4sec h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-family: sans-serif;
+    padding-bottom: 30px;
+}
+.f4sec h6{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    font-family: sans-serif;
+    padding-bottom: 30px;
+}
+.f4secdiv{
+    /* display: flex; */
+    justify-content: center;
+    /* align-self: center; */
+    /* border: 2px solid yellowgreen; */
+    /* width: 35%; */
+    text-align: center;
+    width: 100%;
+    padding: 0px 370px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+.f4sec .p2{
+    padding: 0px 250px;
+    color:grey;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.f4sec .but button{
+    /* width: 50%; */
+    background: 0;
+    background-color: rgb(28,231,131);
+    padding: 10px 9px;
+    /* margin: 7px 0px; */
+    border-radius: 3px;
+    border: none;
+}
+.f4sec a{
+    padding-bottom: 40px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    font-size: 1.4rem;
+    font-family: sans-serif;
+}
+.f5sec{
+    width: 100%;
+    height: 1000px;
+    background-image: url(images/original23\ \(3\).jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.f6sec{
+    background-color: black;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+.f6sec h1{
+    padding-top: 50px;
+    font-size: 6rem;
+    font-family: sans-serif;
+}
+.f6sec h5{
+    padding-top: 10px;
+    font-weight: 100;
+    font-family: sans-serif;
+    font-stretch: 20rem;
+    font-size: 2.5rem;
+}
+.f6sec h3{
+    padding-bottom: 20px;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+.f7sec{
+    padding: 40px 150px;
+    background-color: black;
+}
+.f7sec hr{
+    padding-left: 200px;
+    color: blue;
+}
+.f7sec .f7div1{
+    background-color: black;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    border-bottom: 1px;
+    justify-content: center;
+    padding: 30px 50px;
+}
+.f7sec .f7div1 .f7div1a{
+    display: flex;
+    padding: 20px 0px;
+}
+.f7sec .f7div1 .f7div1a .f7div1a1{
+    padding: 20px 15px;
+}
+.f7sec .f7div1 .f7div1a .f7div1a2{
+    padding: 20px 15px;
+}
+.f7sec .f7div1 .f7div1a .f7div1a3{
+    padding: 20px 15px;
+}
+.f7sec .f7div1 h3{
+    color: white;
+}
+.f7sec .f7div1 p{
+    color: gray;
+}
+.f7div1 .f7div1c{
+    padding-top: 40px;
+}
+.f7div1a3 img{
+    width: 120px;
+}
+.f7div1 .f7div1b{
+    padding-right: 10px;
+}
+.f7div1 .f7div1b .but button{
+    width: 110px;
+    background: 0;
+    background-color: rgb(28,231,131);
+    padding: 10px 9px;
+    border-radius: 50px;
+    border: none;
+}
+.f7div1 .f7div1b button{
+    width: 200px;
+    height: 40px;
+    padding-top: 10px;
+    background: 0;
+    background-color: white;
+    padding: 10px 9px;
+    border-radius: 3px;
+    border: none;
+}
+.f7div1 .f7div1c button{
+    width: 200px;
+    height: 40px;
+    padding-top: 10px;
+    background: 0;
+    background-color: white;
+    padding: 10px 9px;
+    border-radius: 3px;
+    border: none;
+}
+input{
+    -webkit-appearance: none;
+    width: 50px;
+    height: 25px;
+    border-radius: 25px;
+    background-color: #ccc;
+    transition: background .3s;
+    outline: none;
+    cursor: pointer;
+}
+.f7div2a{
+    display: flex;
+    color: white;
+    padding: 30px 0px;
+}
+.f7div2a .div2a1{
+    width: 50%;
+}
+.f7div2a .div2a2{
+    width: 40%;
+}
+.f7div2a .div2a3{
+    width: 10%;
+}
+.f7div2b{
+    display: flex;
+    color: white;
+    padding: 30px 0px;
+}
+.f7div2b .div2b1{
+    width: 50%;
+}
+.f7div2b .div2b2{
+    width: 40%;
+}
+.f7div2b .div2b3{
+    width: 10%;
+}
+.f7div2c{
+    display: flex;
+    color: white;
+    padding: 30px 0px;
+}
+.f7div2c .div2c1{
+    width: 50%;
+}
+.f7div2c .div2c2{
+    width: 40%;
+}
+.f7div2c .div2c3{
+    width: 10%;
+}
+.f7div2d{
+    display: flex;
+    color: white;
+    padding: 30px 0px;
+}
+.f7div2d .div2d1{
+    width: 50%;
+}
+.f7div2d .div2d2{
+    width: 40%;
+}
+.f7div2d .div2d3{
+    width: 10%;
+}
+.f7div2e{
+    display: flex;
+    color: white;
+    padding: 30px 0px;
+}
+.f7div2e .div2e1{
+    width: 50%;
+}
+.f7div2e .div2e2{
+    width: 40%;
+}
+.f7div2e .div2e3{
+    width: 10%;
+}
+.f7div2f{
+    display: flex;
+    color: white;
+    padding: 30px 0px;
+}
+.f7div2f .div2f1{
+    width: 50%;
+}
+.f7div2f .div2f2{
+    width: 40%;
+}
+.f7div2f .div2f3{
+    width: 10%;
+}
+.f7div2g{
+    display: flex;
+    color: white;
+    padding: 30px 0px;
+}
+.f7div2g .div2g1{
+    width: 50%;
+}
+.f7div2g .div2g2{
+    width: 40%;
+}
+.f7div2g .div2g3{
+    width: 10%;
+}
+.f7div2h{
+    display: flex;
+    color: white;
+    padding: 30px 0px;
+}
+.f7div2h .div2h1{
+    width: 50%;
+}
+.f7div2h .div2h2{
+    width: 40%;
+}
+.f7div2h .div2h3{
+    width: 10%;
+}
+.f7div2i{
+    display: flex;
+    color: white;
+    padding: 30px 0px;
+}
+.f7div2i .div2i1{
+    width: 50%;
+}
+.f7div2i .div2i2{
+    width: 40%;
+}
+.f7div2i .div2i3{
+    width: 10%;
+}
+.f7sec .f7div2j{
+    display: block;
+    color: white;
+    padding: 10px 0px 40px 0px;
+}
+.f7sec .f7div2k{
+    display: flex;
+    color: white;
+    padding: 30px 0px;
+    justify-content: center;
+}
+.f8sec{
+    padding: 50px 150px;
+    background-color: white;
+}
+.f8sec .f8div1{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+.f8sec .f8div1 a{
+    color: grey;
+    text-decoration: none;
+    padding-top: 50px;
+    font-weight: 50px;
+    font-family: sans-serif;
+    /* font-stretch: 20rem; */
+    font-size: 1.5rem;
+}
+.f8sec .f8div1 span{
+    color: black;
+    padding-bottom: 50px;
+    font-weight: 100px;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+}
+.f8sec .f8div1 .f8div1a{
+    text-size-adjust: 2rem;
+    display: block;
+    /* padding-right: 70px; */
+}
+.f8div2{
+    padding-top: 40px;
+}
+.f8div2a{
+    padding-bottom: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.f8sec .f8div2 .f8div2b{
+    text-size-adjust: 2rem;
+    display: block;
+}
+.f8div2b a{
+    color: black;
+    padding-bottom: 50px;
+    font-weight: 100px;
+    font-family: sans-serif;
+    font-size: 1.25rem;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+
+
+
+@media screen and (max-width: 1025px){
+    nav .fnavdiv{
+        display: none;
+    }
+    .fsec{
+        width: 100%;
+        background-image: url(images/originalmain.jpeg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .fsec .secnav{
+    
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 1.5rem 2rem;
+        background-color: none;
+    }
+    .secnav div:nth-child(1) img{
+        color: rgb(163,169,183);
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        background: linear-gradient rgba(0 0 0.7 black) (0 0 0.7 black);
+    }
+    .secnav div:nth-child(2) a{
+        color: rgb(163,169,183);
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        background: linear-gradient rgba(0 0 0.7 black) (0 0 0.7 black);
+    }
+    .secnav div:nth-child(2) a:hover{
+        color: white;
+        width: 55px;
+        border-radius: 5px;
+        background-color: gray;
+    }
+    .container1{
+        /* border: 2px solid blue; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    .container1 .middiv{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        /* gap: 30px; */
+    }
+    .box1 .but button{
+        width: 50%;
+        background: 0;
+        background-color: rgb(28,231,131);
+        padding: 5px 20px;
+        margin: 7px 0px;
+        border-radius: 5px;
+        border: none;
+    }
+    .middiv .box1{
+        /* border: 2px solid red; */
+    }
+    .box1 .disn{
+        padding-bottom: 20px;
+    }
+    .container1 .box1{
+        color: white;
+    }
+    .box1 .disn{
+        color: rgb(28,231,131);
+    }
+    .box1 div:nth-child(2) img{
+        width: 24rem;
+    }
+    .box1 .both{
+        font-size: 1.5rem;
+        font-weight: 800;
+        font-family: sans-serif;
+        width: 60%;
+        padding-top: 20px;
+        margin-left: 40px;
+    }
+    .box2 div:nth-child(2) img{
+        width: 30rem;
+    }
+    .box3{
+        text-align: center;
+        /* border: 2px solid yellowgreen; */
+        width: 50%;
+        padding-bottom: 70px;
+    }
+    .container1 .box3 .aterms{
+        padding: 15px;
+        color: black;
+        font-weight: 800;
+        font-size: 1.2rem;
+    }
+    .aterms a{
+        color: white;
+    }
+    .ssec{
+        background-color: black;
+        align-items: center;
+        
+    }
+    .ssec .divssec{
+        /* width: 50%; */
+    }
+    .ssec .divssec p{
+        align-items: center;
+        padding-top: 70px;
+        padding-bottom: 10px;
+        color: rgb(28,231,131);
+        display: flex;
+        justify-content: center;
+        font-size: 1rem;
+        font-family: sans-serif;
+    }
+    .ssec .divssec h1{
+        color: white;
+        padding-bottom: 10px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        font-size: 5rem;
+        font-family: sans-serif;
+    }
+    .ssec .divssec h6{
+        color: white;
+        padding-bottom: 50px;
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
+        font-family: sans-serif;
+    }
+    .tsec{
+        height: 1000px;
+        width: 100%;
+        display: inline-block;
+        background-color: black;
+        justify-content: space-evenly;
+        padding: 0px 50px;
+    }
+    .tsec .div1{
+        width: 100%;
+        display: flex;
+        /* background-color: black; */
+        justify-content: space-between;
+        padding-bottom: 20px;
+    }
+    .tsec .div2{
+        width: 100%;
+        display: flex;
+        /* background-color: black; */
+        justify-content: space-between;
+    }
+    .tsec .btnsec1{
+        background-image: url(images/original\ \(1a\).png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 500px;
+        width: 350px;
+        align-content: start;
+        border-radius: 10px;
+        border: 4px solid transparent;
+        border-color: black;
+        margin: 0px 50px 0px 0px;
+    }
+    .tsec .btnsec1:hover{
+        border: 4px solid gray;
+        /* transition: 1s;
+        opacity: 100px; */
+    }
+    .tsec .btnsec1 h2{
+        color: white;
+        font-family: sans-serif;
+        font-weight: bolder;
+        text-align: left;
+        padding-bottom: 10px;
+        padding-left: 5px;
+    }
+    .tsec .btnsec1 h1{
+        color: white;
+        font-family: sans-serif;
+        font-weight: bolder;
+        text-align: left;
+        padding-left: 5px;
+    }
+    
+    .tsec .btnsec2{
+        background-image: url(images/original\ b1.jpeg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 500px;
+        width: 350px;
+        align-content: start;
+        border-radius: 10px;
+        border: 4px solid transparent;
+        border-color: black;
+    }
+    .tsec .btnsec2:hover{
+        border: 4px solid gray;
+    }
+    .tsec .btnsec2 h2{
+        color: white;
+        font-family: sans-serif;
+        font-weight: bolder;
+        text-align: left;
+        padding-bottom: 10px;
+        padding-left: 5px;
+    }
+    .tsec .btnsec2 h1{
+        color: white;
+        font-family: sans-serif;
+        font-weight: bolder;
+        text-align: left;
+        padding-left: 5px;
+    }
+    
+    .tsec .btnsec3{
+        background-image: url(images/original\ \(c2\).png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 500px;
+        width: 350px;
+        align-content: start;
+        border-radius: 10px;
+        border: 4px solid transparent;
+        border-color: black;
+        margin: 0px 50px 0px 0px;
+    }
+    .tsec .btnsec3:hover{
+        border: 4px solid gray;
+    }
+    .tsec .btnsec3 h2{
+        color: white;
+        font-family: sans-serif;
+        font-weight: bolder;
+        text-align: left;
+        padding-bottom: 10px;
+        padding-left: 5px;
+    }
+    .tsec .btnsec3 h1{
+        color: white;
+        font-family: sans-serif;
+        font-weight: bolder;
+        text-align: left;
+        padding-left: 5px;
+    }
+    
+    
+    .tsec .btnsec4{
+        background-image: url(images/original\ \(d3\).png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 500px;
+        width: 350px;
+        align-content: start;
+        border-radius: 10px;
+        border: 4px solid transparent;
+        border-color: black;
+    }
+    .tsec .btnsec4:hover{
+        border: 4px solid gray;
+    }
+    .tsec .btnsec4 h2{
+        color: white;
+        font-family: sans-serif;
+        font-weight: bolder;
+        text-align: left;
+        padding-bottom: 10px;
+        padding-left: 5px;
+    }
+    .tsec .btnsec4 h1{
+        color: white;
+        font-family: sans-serif;
+        font-weight: bolder;
+        text-align: left;
+        padding-left: 5px;
+    }
+    
+    .btnsec1 div{
+        position: absolute;
+        margin-top: -190px;
+    }
+    
+    .btnsec2 div{
+        position: absolute;
+        margin-top: -190px;
+    }
+    
+    .btnsec3 div{
+        position: absolute;
+        margin-top: -190px;
+    }
+    
+    .btnsec4 div{
+        position: absolute;
+        margin-top: -190px;
+    }
+    
+    .f4sec{
+        width: 100%;
+        background-color: black;
+    }
+    /* .f4sec .p1{
+        padding-top: 20px;
+        margin-left: 920px;
+        color:grey;
+        padding-bottom: 90px;
+        align-content: center;
+    } */
+    .f4sec h2{
+        color: rgb(28,231,131);
+        display: flex;
+        justify-content: center;
+        font-size: 1rem;
+        font-family: sans-serif;
+        padding-bottom: 20px;
+    }
+    .f4sec h1{
+        color: white;
+        display: flex;
+        justify-content: center;
+        font-size: 3rem;
+        font-family: sans-serif;
+        padding-bottom: 30px;
+    }
+    .f4sec h6{
+        color: white;
+        display: flex;
+        justify-content: center;
+        font-size: 1rem;
+        font-family: sans-serif;
+        padding-bottom: 30px;
+    }
+    .f4secdiv{
+        /* display: flex; */
+        justify-content: center;
+        /* align-self: center; */
+        /* border: 2px solid yellowgreen; */
+        /* width: 35%; */
+        text-align: center;
+        width: 100%;
+        padding: 0px 370px;
+        padding-bottom: 10px;
+        align-items: center;
+    }
+    .f4sec .p2{
+        padding: 0px 250px;
+        color:grey;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    .f4sec .but button{
+        /* width: 50%; */
+        background: 0;
+        background-color: rgb(28,231,131);
+        padding: 10px 9px;
+        /* margin: 7px 0px; */
+        border-radius: 3px;
+        border: none;
+    }
+    .f4sec a{
+        padding-bottom: 40px;
+        color:white;
+        display: flex;
+        justify-content: center;
+        font-size: 1.4rem;
+        font-family: sans-serif;
+    }
+    .f5sec{
+        width: 100%;
+        height: 1000px;
+        background-image: url(images/original23\ \(3\).jpeg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .f6sec{
+        background-color: black;
+        align-items: center;
+        color: white;
+        justify-content: center;
+        text-align: center;
+    }
+    .f6sec h1{
+        padding-top: 50px;
+        font-size: 6rem;
+        font-family: sans-serif;
+    }
+    .f6sec h5{
+        padding-top: 10px;
+        font-weight: 100;
+        font-family: sans-serif;
+        font-stretch: 20rem;
+        font-size: 2.5rem;
+    }
+    .f6sec h3{
+        padding-bottom: 20px;
+        font-size: 2rem;
+        font-family: sans-serif;
+    }
+    .f7sec{
+        padding: 40px 150px;
+        background-color: black;
+    }
+    .f7sec hr{
+        padding-left: 200px;
+        color: blue;
+    }
+    .f7sec .f7div1{
+        background-color: black;
+        position: sticky;
+        top: 0;
+        width: 100%;
+        display: flex;
+        border-bottom: 1px;
+        justify-content: center;
+        padding: 30px 50px;
+    }
+    .f7sec .f7div1 .f7div1a{
+        display: flex;
+        padding: 20px 0px;
+    }
+    .f7sec .f7div1 .f7div1a .f7div1a1{
+        padding: 20px 15px;
+    }
+    .f7sec .f7div1 .f7div1a .f7div1a2{
+        padding: 20px 15px;
+    }
+    .f7sec .f7div1 .f7div1a .f7div1a3{
+        padding: 20px 15px;
+    }
+    .f7sec .f7div1 h3{
+        color: white;
+    }
+    .f7sec .f7div1 p{
+        color: gray;
+    }
+    .f7div1 .f7div1c{
+        padding-top: 40px;
+    }
+    .f7div1a3 img{
+        width: 120px;
+    }
+    .f7div1 .f7div1b{
+        padding-right: 10px;
+    }
+    .f7div1 .f7div1b .but button{
+        width: 110px;
+        background: 0;
+        background-color: rgb(28,231,131);
+        padding: 10px 9px;
+        border-radius: 50px;
+        border: none;
+    }
+    .f7div1 .f7div1b button{
+        width: 200px;
+        height: 40px;
+        padding-top: 10px;
+        background: 0;
+        background-color: white;
+        padding: 10px 9px;
+        border-radius: 3px;
+        border: none;
+    }
+    .f7div1 .f7div1c button{
+        width: 200px;
+        height: 40px;
+        padding-top: 10px;
+        background: 0;
+        background-color: white;
+        padding: 10px 9px;
+        border-radius: 3px;
+        border: none;
+    }
+    input{
+        -webkit-appearance: none;
+        width: 50px;
+        height: 25px;
+        border-radius: 25px;
+        background-color: #ccc;
+        transition: background .3s;
+        outline: none;
+        cursor: pointer;
+    }
+    .f7div2a{
+        display: flex;
+        color: white;
+        padding: 30px 0px;
+    }
+    .f7div2a .div2a1{
+        width: 50%;
+    }
+    .f7div2a .div2a2{
+        width: 40%;
+    }
+    .f7div2a .div2a3{
+        width: 10%;
+    }
+    .f7div2b{
+        display: flex;
+        color: white;
+        padding: 30px 0px;
+    }
+    .f7div2b .div2b1{
+        width: 50%;
+    }
+    .f7div2b .div2b2{
+        width: 40%;
+    }
+    .f7div2b .div2b3{
+        width: 10%;
+    }
+    .f7div2c{
+        display: flex;
+        color: white;
+        padding: 30px 0px;
+    }
+    .f7div2c .div2c1{
+        width: 50%;
+    }
+    .f7div2c .div2c2{
+        width: 40%;
+    }
+    .f7div2c .div2c3{
+        width: 10%;
+    }
+    .f7div2d{
+        display: flex;
+        color: white;
+        padding: 30px 0px;
+    }
+    .f7div2d .div2d1{
+        width: 50%;
+    }
+    .f7div2d .div2d2{
+        width: 40%;
+    }
+    .f7div2d .div2d3{
+        width: 10%;
+    }
+    .f7div2e{
+        display: flex;
+        color: white;
+        padding: 30px 0px;
+    }
+    .f7div2e .div2e1{
+        width: 50%;
+    }
+    .f7div2e .div2e2{
+        width: 40%;
+    }
+    .f7div2e .div2e3{
+        width: 10%;
+    }
+    .f7div2f{
+        display: flex;
+        color: white;
+        padding: 30px 0px;
+    }
+    .f7div2f .div2f1{
+        width: 50%;
+    }
+    .f7div2f .div2f2{
+        width: 40%;
+    }
+    .f7div2f .div2f3{
+        width: 10%;
+    }
+    .f7div2g{
+        display: flex;
+        color: white;
+        padding: 30px 0px;
+    }
+    .f7div2g .div2g1{
+        width: 50%;
+    }
+    .f7div2g .div2g2{
+        width: 40%;
+    }
+    .f7div2g .div2g3{
+        width: 10%;
+    }
+    .f7div2h{
+        display: flex;
+        color: white;
+        padding: 30px 0px;
+    }
+    .f7div2h .div2h1{
+        width: 50%;
+    }
+    .f7div2h .div2h2{
+        width: 40%;
+    }
+    .f7div2h .div2h3{
+        width: 10%;
+    }
+    .f7div2i{
+        display: flex;
+        color: white;
+        padding: 30px 0px;
+    }
+    .f7div2i .div2i1{
+        width: 50%;
+    }
+    .f7div2i .div2i2{
+        width: 40%;
+    }
+    .f7div2i .div2i3{
+        width: 10%;
+    }
+    .f7sec .f7div2j{
+        display: block;
+        color: white;
+        padding: 10px 0px 40px 0px;
+    }
+    .f7sec .f7div2k{
+        display: flex;
+        color: white;
+        padding: 30px 0px;
+        justify-content: center;
+    }
+    .f8sec{
+        padding: 50px 150px;
+        background-color: white;
+    }
+    .f8sec .f8div1{
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 40px;
+    }
+    .f8sec .f8div1 a{
+        color: grey;
+        text-decoration: none;
+        padding-top: 50px;
+        font-weight: 50px;
+        font-family: sans-serif;
+        /* font-stretch: 20rem; */
+        font-size: 1.5rem;
+    }
+    .f8sec .f8div1 span{
+        color: black;
+        padding-bottom: 50px;
+        font-weight: 100px;
+        font-family: sans-serif;
+        font-size: 1.5rem;
+    }
+    .f8sec .f8div1 .f8div1a{
+        text-size-adjust: 2rem;
+        display: block;
+        /* padding-right: 70px; */
+    }
+    .f8div2{
+        padding-top: 40px;
+    }
+    .f8div2a{
+        padding-bottom: 50px;
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .f8sec .f8div2 .f8div2b{
+        text-size-adjust: 2rem;
+        display: block;
+    }
+    .f8div2b a{
+        color: black;
+        padding-bottom: 50px;
+        font-weight: 100px;
+        font-family: sans-serif;
+        font-size: 1.25rem;
+        padding-right: 20px;
+        text-decoration: none;
+    }
+}
